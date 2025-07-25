@@ -1,0 +1,318 @@
+/* shared styles */
+.display-flex {
+     display: flex;
+}
+
+.ash-color {
+     font-weight: medium;
+     color: rgba(137, 135, 161, 1);
+
+}
+
+.text-bold {
+     font-weight: bold;
+
+}
+
+.orange-color {
+     color: rgba(233, 90, 8, 1);
+}
+
+/* text decoration */
+.raleway {
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+}
+
+.inter {
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+}
+
+.noto-serif {
+     font-family: "Noto Serif", serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+
+}
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+
+     .nav-bar,
+     .nav-links {
+          flex-direction: column;
+     }
+
+}
+
+/* nav styles */
+.nav-bar {
+
+
+     justify-content: space-between;
+     align-items: center;
+
+}
+
+.header-item {
+     text-align: center;
+     margin: 30px 150px;
+     width: 1140px;
+
+
+
+}
+
+.nav-links {
+     align-items: center;
+
+
+}
+
+.nav-link-3 {
+     margin-right: 48px;
+}
+
+
+.icon-img img {
+     height: 82px;
+     width: 135px;
+     margin-top: 5.5px;
+     margin-bottom: 5.5px;
+}
+
+.nav-item {
+     list-style: none;
+
+
+
+}
+
+.nav-link {
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 16px;
+
+
+
+
+}
+
+
+
+.icon-cart {
+     margin-right: 10px;
+     height: 24px;
+     width: 24px;
+
+}
+
+
+/* main styles */
+main {
+     max-width: 1140px;
+     margin: 0 150px;
+}
+
+.sec-1 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 120px;
+
+}
+
+.write-item {
+     height: 299px;
+     width: 570px;
+
+}
+
+.h-item {
+     font-weight: bold;
+     font-size: 65px;
+     margin-bottom: 13px;
+}
+
+.p-item {
+     font-size: 22px;
+     color: rgba(0, 0, 0, 0.5);
+     height: 108px;
+     width: 570px;
+}
+
+.sec1-img img {
+     height: 355px;
+     width: 570px;
+     margin-right: 150px;
+
+}
+
+.sec-2 {
+     margin-top: 119px;
+     align-items: center;
+}
+
+.tittle-h {
+     text-align: center;
+     font-size: 50px;
+     font-weight: bold;
+     max-height: 68px;
+
+
+
+}
+
+.tittle-p {
+     text-align: center;
+     font-size: 22px;
+     color: rgba(0, 0, 0, 0.5);
+     align-items: center;
+     margin-bottom: 49px;
+     margin-top: 40px;
+
+}
+
+.cart-grid {
+     display: grid;
+     grid-template-columns: repeat(4, 2fr);
+     gap: 30px;
+     align-items: center;
+
+
+}
+
+.cart-card {
+     text-align: center;
+
+
+
+}
+
+.cart-card img {
+     width: 270px;
+     height: 322px;
+}
+
+.name-p {
+     font-size: 22px;
+     font-weight: medium;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+
+.money {
+     font-size: 22px;
+     font-weight: bold;
+     margin-bottom: 30px;
+}
+
+.btnpri {
+     height: 50px;
+     width: 270px;
+     gap: 10px;
+     background-color: rgba(233, 90, 8, 1);
+     font-size: 16px;
+     font-weight: 500;
+     color: rgba(255, 255, 255, 1);
+}
+
+.sec-3 {
+     display: flex;
+     margin-top: 211px;
+     justify-content: space-between;
+}
+
+.flower-plan {
+     height: 597px;
+     width: 540px;
+}
+
+
+
+.flower-h {
+     font-size: 50px;
+     font-weight: bold;
+
+}
+
+.flower-p {
+     font-size: 22px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-top: 20px;
+     margin-bottom: 38px;
+}
+
+.sec-4 {
+     margin-top: 133.88px;
+     align-items: center;
+
+}
+
+.deal {
+     font-size: 50px;
+     font-weight: bold;
+     text-align: center;
+
+
+}
+
+.deal-p {
+     font-size: 22px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-top: 16px;
+     text-align: center;
+
+}
+
+.sec-5 {
+     margin: 120px 150px;
+     width: 1140px;
+
+}
+
+
+
+.offer-card img {
+     border-radius: 14px;
+     width: 367px;
+     height: 197px;
+
+}
+
+.offer-text {
+     text-align: center;
+     color: rgba(255, 255, 255, 1);
+     font-size: 16px;
+     font-weight: 500;
+     width: 270px;
+}
+
+/* .main-offer {
+     width: 753px;
+     height: 423px;
+     border-radius: 22px;
+     gap: 10px;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+
+}
+
+
+
+.offer-text  {
+     font-size: 20px;
+     width: 270px;
+     font-weight: bold;
+
+}
+
+.offer-text a {
+     color: white;
+     text-decoration: underline;
+     display: inline-block;
+     margin-top: 26px;
+} */
