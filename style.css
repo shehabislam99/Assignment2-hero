@@ -316,3 +316,56 @@ main {
      display: inline-block;
      margin-top: 26px;
 } */
+/* footer styles */
+.search-eng {
+     margin-top: 120px;
+     width: 1440px;
+     height: 533px;
+     background-image: url('assets/news-letter-bg.png');
+     background-repeat: no-repeat;
+     align-items: center;
+     text-align: center;
+}
+
+.middle-search {
+     margin: 199px;
+}
+
+.middle-search h2 {
+     color: rgba(255, 255, 255, 1);
+     font-size: 50px;
+     font-weight: bold;
+
+
+}
+
+.search-form {
+     margin-top: 23px;
+     width: 830px;
+     height: 50px;
+
+}
+
+.search-area {
+     background-color: white;
+     width: 644px;
+     height: 50px;
+     padding: 20px 8px;
+}
+
+.Subscribe-bt {
+     font-size: 16px;
+     color: rgba(255, 255, 255, 1);
+     font-weight: 500;
+     background-color: rgba(233, 90, 8, 1);
+     width: 186px;
+     height: 50px;
+
+}
+
+.privecy-policy {
+     background-color: rgba(255, 255, 255, 0.5);
+     width: 1440px;
+     height: 348px;
+     padding: 160px 50px;
+}
