@@ -5,7 +5,6 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Assignment02</title>
-
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
@@ -17,43 +16,41 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
           integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
-
      <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-     <header class="header-item">
-          <nav class="nav-bar display-flex">
-               <div class="icon-img">
+     <header class="header share-width1">
+          <nav class="navbar display-flex">
+               <div class="img-logo display-flex">
                     <img src="assets/logo.png" alt="">
                </div>
-               <ul class="nav-links inter display-flex">
-                    <!-- li.nav-item*4>a.nav-link -->
-                    <li class="nav-item h-bold nav-link-3"><a href="" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item nav-link-3"><a href="" class="nav-link ash-color">Shop</a>
-                    </li>
-                    <li class="nav-item nav-link-3"><a href="" class="nav-link ash-color">About us</a>
-                    </li>
-                    <li class="nav-item  "><a href="" class="nav-link"><i
-                                   class="icon-cart fas fa-shopping-cart"></i>Cart($56)</a>
-                    </li>
-
+               <ul class="navbar-links inter display-flex">
+                    <li class="nav-item text-bold navbar-link-3"><a href="" class="nav-link "></a>Home</li>
+                    <li class=" nav-item ash-color navbar-link-3"><a href="" class="nav-link "></a>Shop</li>
+                    <li class=" nav-item ash-color navbar-link-3"><a href="" class="nav-link "></a>About us</li>
+                    <li class=" nav-item"><a href="" class="nav-link"></a><i
+                              class="cart-icon fas fa-shopping-cart"></i>Cart
+                         ($56)</li>
+               </ul>
+               <ul class="mobile-icon ">
+                    <li class="display-flex nav-item"><a href="" class="nav-link"></a><i
+                              class="cart-icon fas fa-shopping-cart"></i>Cart
+                         ($56)</li>
 
                </ul>
 
           </nav>
+
      </header>
      <main>
-          <section class="sec-1">
+          <section class="display-flex sec-1 share-width1">
                <div class="write-item">
-                    <h1 class="h-item noto-serif">ALWAYS<span class="orange-color">
-                              FREASH
+                    <h1 class="flower-head noto-serif">ALWAYS<span class="orange-color">
+                              FRESH
                               <br>FLOWER</span> </h1>
 
-                    <p class="p-item inter">Indulge your senses with the
+                    <p class="flower-p p-color inter">Indulge your senses with the
                          beauty and fragrance of
                          our fresh flower shop. From
                          classic roses to exotic blooms, we
@@ -61,18 +58,21 @@
                          that are perfect for any occasion.
                     </p>
                </div>
-               <div class="sec1-img"><img src="assets/hero-flower.png" alt=""></div>
+               <div class="flower-img"><img src="assets/hero-flower.png" alt=""></div>
           </section>
-          <section class="sec-2">
-               <div class="tittle-h noto-serif">
-                    <h1><span class="orange-color">Our</span> Plants</h1>
+          <section class="share-width1 sec-2">
+               <div class="content">
+                    <div class="plant-h noto-serif">
+                         <h1><span class="orange-color">Our</span> Plants</h1>
+                    </div>
+                    <div class="plant-p p-color inter">
+                         <p>Indulge your senses with the beauty and fragrance of
+                              our fresh flower shop. From <br> classic
+                              roses to exotic blooms, we
+                              offer a wide variety of fresh.</p>
+                    </div>
                </div>
-               <div class="tittle-p inter">
-                    <p>Indulge your senses with the beauty and fragrance of
-                         our fresh flower shop. From <br> classic
-                         roses to exotic blooms, we
-                         offer a wide variety of fresh.</p>
-               </div>
+
                <div class="cart-grid">
                     <div class="cart-card">
                          <img src="assets/sample-flower-image.png" alt="Lily Blossom">
@@ -134,7 +134,7 @@
                          <button class="btnpri inter">Add to
                               Cart</button>
                     </div>
-                    <div class="cart-card">
+                    <div class="cart-card cart-7">
                          <img src="assets/sample-flower-image.png" alt="Lily Blossom">
                          <h3 class="name-p inter">Lily Blossom
                          </h3>
@@ -144,7 +144,7 @@
                          <button class="btnpri inter">Add to
                               Cart</button>
                     </div>
-                    <div class="cart-card">
+                    <div class="cart-card cart-8">
                          <img src="assets/sample-flower-image.png" alt="Lily Blossom">
                          <h3 class="name-p inter">Lily Blossom
                          </h3>
@@ -158,178 +158,107 @@
                </div>
 
           </section>
-          <section class="sec-3 display-flex">
-               <div><img class="flower-plan" src="assets/flower-store.png" alt="">
+          <section class="sec-3 ">
+               <div><img src="assets/trusted-badge.png" class="trusted-badge" alt=""></div>
+
+               <div class="share-width1 flower-plant-body display-flex ">
+                    <div class="flower-plant-img "><img src="assets/flower-store.png" alt=""></div>
+                    <div class="flower-tittle">
+                         <h1 class="flower-plant-h noto-serif">Flower & Plants
+                              Lover</h1>
+
+                         <ul class="flower-p-plant inter">
+                              <li class="flower-plant-p ">Indulge your senses with the beauty and fragrance of our fresh
+                                   flower shop. From classic
+                                   roses to exotic blooms, we
+                                   offer a wide variety of fresh.</li>
+                              <li class="flower-plant-p ">Indulge your senses with the beauty and fragrance of our fresh
+                                   flower shop. From classic
+                                   roses to exotic blooms, we
+                                   offer a wide variety of fresh.</li>
+                              <li class="flower-plant-p ">Indulge your senses with the beauty and fragrance of our fresh
+                                   flower shop. From classic
+                                   roses to exotic blooms, we
+                                   offer a wide variety of fresh.</li>
+                         </ul>
+                    </div>
                </div>
-               <div class="flower-tittle">
-                    <h1 class="flower-h noto-serif">Flower & Plants <br>
-                         Lover</h1>
 
-                    <ul>
-                         <li class="flower-p inter">
-                              <p>Indulge your senses
-                                   with
-                                   the
-                                   beauty
-                                   and
-                                   fragrance
-                                   of
-                                   our
-                                   fresh
-                                   flower
-                                   shop.
-                                   From
-                                   classic
-                                   roses
-                                   to
-                                   exotic
-                                   blooms,
-                                   we
-                                   offer
-                                   a
-                                   wide
-                                   variety
-                                   of
-                                   fresh.
-                              </p>
-                         </li>
-                         <li class="flower-p inter">
-                              <p>Indulge your senses
-                                   with
-                                   the
-                                   beauty
-                                   and
-                                   fragrance
-                                   of
-                                   our
-                                   fresh
-                                   flower
-                                   shop.
-                                   From
-                                   classic
-                                   roses
-                                   to
-                                   exotic
-                                   blooms,
-                                   we
-                                   offer
-                                   a
-                                   wide
-                                   variety
-                                   of
-                                   fresh.
-                              </p>
-                         </li>
-                         <li class="flower-p inter">
-                              <p>Indulge your senses
-                                   with
-                                   the
-                                   beauty
-                                   and
-                                   fragrance
-                                   of
-                                   our
-                                   fresh
-                                   flower
-                                   shop.
-                                   From
-                                   classic
-                                   roses
-                                   to
-                                   exotic
-                                   blooms,
-                                   we
-                                   offer
-                                   a
-                                   wide
-                                   variety
-                                   of
-                                   fresh.
-                              </p>
-                         </li>
-                    </ul>
-
-
-               </div>
           </section>
+          <section class="sec-4">
+               <h1 class="deals noto-serif"><span class="orange-color">Latest</span> Deals
+               </h1>
+               <p class="deals-p inter">Indulge your senses with the beauty and
+                    fragrance of
+                    our fresh flower shop. From <br> classic roses to exotic
+                    blooms, we
+                    offer a wide variety of fresh.</p>
+          </section>
+          <section class="share-width1 display-flex sec-5">
+               <div class="shop-offer">
+                    <div class="bloom-plant noto-serif">
+                         <div class="shop-text">
+                              <h4 class="discount-h">60% Off | Bloom Plant</h4>
+                              <u class="inter shop-link ">Shop Now</u>
+                         </div>
+                    </div>
+                    <div class="ana-plant">
+                         <div class="shop-text">
+                              <h4 class="discount-h noto-serif">30% Off | Ana Plant</h4>
+                              <u class="inter shop-link ">Shop Now</u>
 
+                         </div>
+                    </div>
+               </div>
+               <div class="Zabo-plant">
+
+                    <div class="shop-text2">
+                         <h3 class="discount-h2 noto-serif">25% Off | Zabo Plant</h3>
+                         <u class="inter shop-link2 ">Shop Now</u>
+                    </div>
+               </div>
+
+          </section>
      </main>
-     <section class="sec-4">
-          <h1 class="deal noto-serif"><span class="orange-color">Latest</span> Deals
-          </h1>
-          <p class="deal-p inter">Indulge your senses with the beauty and
-               fragrance of
-               our fresh flower shop. From <br> classic roses to exotic
-               blooms, we
-               offer a wide variety of fresh.</p>
-     </section>
-     <section class="display-flex sec-5">
-          <div class="shop-offer">
-               <div class="offer-card1">
-                    <div class="offer-text">
-                         <h4>60% Off | Bloom Plant</h4>
-                         <u class="inter shop-link ">Shop Now</u>
-                    </div>
-               </div>
-               <div class="offer-card2">
-                    <div class="offer-text">
-                         <h4>30% Off | Ana Plant</h4>
-                         <u class="inter shop-link ">Shop Now</u>
+     <div class=" join-section ">
+          <div class="join-title ">
+               <h2 class="noto-serif join-h">Join the colorful Bunch</h2>
 
-                    </div>
-               </div>
-          </div>
-          <div class="side-pic">
-
-               <div class="side-text">
-                    <h3>25% Off | Zabo Plant</h3>
-                    <u class="inter shop-link2 ">Shop Now</u>
-               </div>
-          </div>
-
-     </section>
-
-
-</body>
-<footer>
-     <div class="search-eng ">
-          <div class="middle-search ">
-               <h2 class="noto-serif">Join the colorful Bunch</h2>
-
-               <form action="search-form inter">
-                    <input class="search-area" type="email" placeholder="Write email" required>
-                    <button class="Subscribe-bt " type="submit">Subscribe</button>
+               <form class="subscribe-form inter display-flex">
+                    <input class="subscribe-input" type="email" placeholder="Write email" required>
+                    <button class="Subscribe-btn" type="submit">Subscribe</button>
                </form>
 
           </div>
      </div>
-     <div class="privecy-policy">
-          <div class="privecy-box display-flex">
+
+</body>
+<footer>
+     <div class="footer-box share-width1 display-flex">
+          <div>
                <div>
-                    <div class="icon-img">
-                         <img src="assets/logo.png" alt="">
-                    </div>
-                    <p class="foot-p ash-color"> your senses with the <br> beauty and fragrance of our fresh <br> flower
-                         shop.</p>
+                    <img class="img-logo" src="assets/logo.png" alt="">
                </div>
-               <ul class="decorations">
-                    <li class="decoration"><a href="">Home</a></li>
-                    <li class="decoration"><a href="">About Us</a></li>
-                    <li class="decoration"><a href="">Blog</a></li>
-                    <li class="decoration"><a href="">FAQ</a></li>
-                    <li class="decoration"><a href="">Contact Us</a></li>
-                    <li class="decoration1"><a href="">Features</a></li>
-                    <li class="decoration1"><a href="">Pricing</a></li>
-                    <li class="decoration1"><a href="">Privacy Policy</a></li>
-                    <li class="decoration1"><a href="">Term of Service</a></li>
-                    <li class="decoration1"><a href="">Help Center</a></li>
-               </ul>
-               <div class="social-icon display-flex">
-                    <img src="assets/icon-linkedin.png" alt="">
-                    <img src="assets/icon-twitter.png" alt="">
-                    <img src="assets/icon-facebook.png" alt="">
-                    <img src="assets/icon-youtube.png" alt="">
-               </div>
+               <p class="foot-p ash-color"> your senses with the beauty and fragrance of our fresh <br> flower
+                    shop.</p>
+          </div>
+          <ul class="decorations">
+               <li class="decoration"><a href="" class="styles">Home</a></li>
+               <li class="decoration"><a href="" class="styles">About Us</a></li>
+               <li class="decoration"><a href="" class="styles">Blog</a></li>
+               <li class="decoration"><a href="" class="styles">FAQ</a></li>
+               <li class="decoration"><a href="" class="styles">Contact Us</a></li>
+               <li class="decoration1"><a href="" class="styles">Features</a></li>
+               <li class="decoration1"><a href="" class="styles">Pricing</a></li>
+               <li class="decoration1"><a href="" class="styles">Privacy Policy</a></li>
+               <li class="decoration1"><a href="" class="styles">Term of Service</a></li>
+               <li class="decoration1"><a href="" class="styles">Help Center</a></li>
+          </ul>
+          <div class="social-icon display-flex">
+               <img src="assets/icon-linkedin.png" alt="">
+               <img src="assets/icon-twitter.png" alt="">
+               <img src="assets/icon-facebook.png" alt="">
+               <img src="assets/icon-youtube.png" alt="">
           </div>
      </div>
 
