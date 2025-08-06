@@ -211,17 +211,24 @@
      gap: 60px;
 }
 
+.flower-plant-sec {
+     position: relative;
+     display: inline-block;
+
+}
+
 .flower-plant-img {
-     height: 597px;
+     display: block;
+     height: auto;
      width: 540px;
 }
 
 .trusted-badge {
+     position: absolute;
+     margin: 0px 0px 438px 347px;
      width: 286px;
-     max-height: 286px;
-     /* display: flex;
-     align-items: center;
-     justify-content: center; */
+     max-height: auto;
+     bottom: 20px;
 
 }
 
