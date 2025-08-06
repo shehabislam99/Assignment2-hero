@@ -301,7 +301,9 @@
 .shop-text {
      text-align: center;
      height: 91px;
-     padding: 49px 60px;
+     padding: 40px;
+     margin: 0 auto;
+
 }
 
 .discount-h {
@@ -314,6 +316,7 @@
      font-size: 16px;
      font-weight: 400;
      color: rgba(255, 255, 255, 1);
+     margin-bottom: 50px;
 }
 
 .Zabo-plant {
@@ -339,7 +342,7 @@
      font-size: 22px;
      font-weight: 400px;
      color: rgba(255, 255, 255, 1);
-     margin-top: 0;
+
 }
 
 .discount-h2,
@@ -648,8 +651,8 @@
 
      .shop-text2 {
           text-align: center;
-          height: 91px;
-          padding: 49px 60px;
+          padding: 49px;
+          margin: 0;
 
      }
 
