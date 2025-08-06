@@ -144,7 +144,8 @@
 }
 
 .flower-img {
-     max-height: 355px;
+     height: 355px;
+     width: 570px;
      margin-top: 106px;
 }
 
@@ -478,7 +479,7 @@
 
 
      .sec-1 {
-          /* margin-top: 28px; */
+          margin-top: 79px;
           flex-direction: column-reverse;
           margin-right: 16.18px;
           margin-left: 16px;
@@ -498,8 +499,7 @@
      }
 
      .flower-img {
-          margin-top: 28px;
-
+          height: 245px;
      }
 
      .sec-2 {
